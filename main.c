@@ -18,7 +18,7 @@ int main(){
     int populacao2 = 9000000;
     float area_cidade2 = 7000000;
     float pib2 = 20000000;
-    int quantidade_pontos_turisticos2 = 1;
+    int quantidade_pontos_turisticos2 = 10;
 
     // CALCULO DA DENSIDADE POPULACIONAL
     double densidade_populacional_01 =  area_cidade1 / (float)populacao1;
