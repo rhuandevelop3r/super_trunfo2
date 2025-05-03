@@ -1,4 +1,4 @@
-## Repositório do desafio: jogo Super trunfo - ESTADOS E CIDADES.
+## Repositório do desafio: jogo Super trunfo - Estados e cidades.
 
 ### Descrição:
 -  Um jogo simples feito em linguagem  C, onde se compara os atributos de duas cartas e diz qual delas venceu.
@@ -11,4 +11,4 @@
 
 
 ### Detalhes:
-- Desafio feito na matéria 'Introdução a programação de commputadores' da Estácio.
+- Desafio feito na matéria 'Introdução a programação de computadores' do curso de Ciências da Computação da Estácio.
