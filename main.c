@@ -2,7 +2,7 @@
 
 int main(){
 
-    // CARTA 01
+    // INFORMACOES DA CARTA 01
     char estado1[5] = "RJ";
     char codigo_carta1[4] = "A01";
     char nome_cidade1[50] = "RIO DE JANEIRO";
@@ -11,7 +11,7 @@ int main(){
     float pib1 = 1000000;
     int quantidade_pontos_turisticos1 = 100;
 
-    // CARTA 02
+    // INFORMACOES DA CARTA 02
     char estado2[5] = "SP";
     char codigo_carta2[4] = "A02";
     char nome_cidade2[50] = "SAO PAULO";
@@ -29,23 +29,31 @@ int main(){
     double pib_per_capita1 = pib1 / (float)populacao1;
     double pib_per_capita2 = pib2 / (float)populacao2;
 
-    if(densidade_populacional_01 == densidade_populacional_02){
+    // verifica se a densidade é igual, maior ou menor entre a cidade 1 e 2;
+    if(densidade_populacional_01 == densidade_populacional_02)
+    {
         printf("Carta 1 - %s - %s: %.2lf\n", nome_cidade1, estado1, densidade_populacional_01);
         printf("Carta 2 - %s - %s: %.2lf\n", nome_cidade2, estado2, densidade_populacional_02);
         printf("Resultado: Carta 1: %s == Carta 2: %s -> EMPATE.", nome_cidade1, nome_cidade2);
     }
-    else if(densidade_populacional_01 > densidade_populacional_02){
+    else if(densidade_populacional_01 > densidade_populacional_02)
+    {
         printf("Carta 1 - %s - %s: %.2lf\n", nome_cidade1, estado1, densidade_populacional_01);
         printf("Carta 2 - %s - %s: %.2lf\n", nome_cidade2, estado2, densidade_populacional_02);
         printf("Resultado: Carta 2: %s -> VENCEU, POIS TEM MENOR DENSIDADE.", nome_cidade2);
-    } else{
+    }
+    else
+    {
         printf("Carta 1 - %s - %s: %.2lf\n", nome_cidade1, estado1, densidade_populacional_01);
         printf("Carta 2 - %s - %s: %.2lf\n", nome_cidade2, estado2, densidade_populacional_02);
         printf("Resultado: Carta 1: %s -> VENCEU, POIS TEM MENOR DENSIDADE.", nome_cidade1);
     }
 
 
+    // impede a janela do programa fechar ao ser executado no windows;
     getchar();
     getchar();
+
+    // retorna 0 caso o programa seja executado com sucesso;
     return 0;
 }
