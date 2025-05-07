@@ -11,4 +11,5 @@
 
 
 ### Detalhes:
-- Desafio feito na matéria 'Introdução a programação de computadores' do curso de Ciências da Computação da Estácio.
+- Matéria: Introdução a programação de computadores' do curso de Ciências da Computação da Estácio.
+- Desafio: Super Trunfo - Nível Novato.
